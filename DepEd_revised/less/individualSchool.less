@@ -1,0 +1,61 @@
+div.individual_school_wrapper {
+	.container {
+		.actions {
+			margin: 20px 0;
+    		overflow: hidden;
+			.dashboard_btn {
+				a {
+					border: 1px solid @blue;
+				    border-radius: 2px;
+				    padding: 10px 20px;
+				    text-transform: uppercase;
+				    float: left;
+				}
+			}
+			.add_teacher_btn {
+				a {
+					border: 1px solid @blue;
+				    border-radius: 2px;
+				    padding: 10px 20px;
+				    text-transform: uppercase;
+				    float: right;
+				}
+			}
+		}
+		.ind_school_name {
+			clear: both;
+		    margin: 20px 0;
+		    overflow: hidden;
+		}
+		.teacher_list {
+			margin: 0 40px;
+			ul {
+				overflow: hidden;
+				li {
+					ul.actions_list {
+						li {
+							display: inline-block;
+
+							&:not(:last-child):after {
+							    content: " |";
+			    				margin: 0 5px;
+							}
+						}	
+					}
+				}
+			}				
+		}
+		.file_upload_area {
+			margin: 40px 0;
+			.dnd_upload {
+				border: 2px dashed @grey1;
+			    text-align: center;
+			    padding: 60px;
+			    background: @grey3;
+			}
+			.files_list {
+				margin: 40px 0;
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+footer {
+	div.above_footer {
+		background: @footer_above_color;
+		.container {
+			margin: 30px auto;
+			.col-md-6 {
+				h5 {
+					color: @footer_header_color;
+				}
+				ul {
+					li {
+						color: @grey1;
+					}
+				}
+			}
+		}
+	}
+	div.below_footer {
+		background-color: @footer_below_color;
+		.container {
+			.copyright {
+				padding: 9px 0;
+				div {
+					color: @grey2;
+				}
+			}
+			.social_media_icons {
+				padding: 4px 0;
+				ul {
+					margin: 0;
+					float: right;
+					li {
+						display: inline-block;
+						margin: 0 5px;
+						a {
+							color: @grey2;
+	    					font-size: 26px;
+						}
+					}
+				}
+			}
+		}
+	}
+}

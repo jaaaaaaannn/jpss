@@ -1,0 +1,273 @@
+nav.default-color {
+  background-color: #3a3a3a;
+  margin: 0;
+}
+div.header_logo {
+  background: #04508c;
+  -webkit-box-shadow: 0 3px 10px 0px #555555;
+  -moz-box-shadow: 0 3px 10px 0px #555555;
+  box-shadow: 0 3px 10px 0px #555555;
+  z-index: 100;
+  position: relative;
+}
+div.header_logo .container {
+  height: 150px;
+  display: table;
+}
+div.header_logo .container .heading_deped_logo {
+  display: table-cell;
+  vertical-align: middle;
+}
+div.header_logo .container .heading_deped_logo .col-md-3 {
+  text-align: center;
+}
+div.header_logo .container .heading_deped_logo .col-md-3 img {
+  width: 120px;
+  height: auto;
+}
+div.header_logo .container .heading_deped_logo .col-md-6 {
+  text-align: center;
+}
+div.header_logo .container .heading_deped_logo .col-md-6 h1 {
+  font-size: 32px;
+  color: #fff;
+  margin: 0;
+}
+div.header_logo .container .heading_deped_logo .col-md-6 h2 {
+  font-size: 24px;
+  color: #fff;
+  margin: 0;
+}
+div.dashboard_wrapper .container .school_heading {
+  overflow: hidden;
+}
+div.dashboard_wrapper .container .school_heading h3 {
+  text-transform: capitalize;
+  float: left;
+}
+div.dashboard_wrapper .container .school_heading a {
+  border: 1px solid #039be5;
+  border-radius: 2px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  margin: 20px 0;
+  float: right;
+}
+div.dashboard_wrapper .container .school_list {
+  margin: 40px 0;
+  overflow: hidden;
+}
+div.dashboard_wrapper .container .school_list .col-md-4 a .school_img {
+  border: 1px solid;
+  text-align: center;
+}
+div.dashboard_wrapper .container .school_list .col-md-4 a .school_img img {
+  width: 192px;
+  height: 192px;
+}
+div.addTeacher_wrapper .container .dashboard_btn {
+  padding: 10px 0;
+  margin: 20px 0;
+}
+div.addTeacher_wrapper .container .dashboard_btn a {
+  border: 1px solid #039be5;
+  border-radius: 2px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+div.addTeacher_wrapper .container .dashboard_btn h4 {
+  padding: 30px 0;
+  margin: 0;
+  text-transform: capitalize;
+}
+div.addTeacher_wrapper .container form {
+  width: 50%;
+  margin: 0 auto 40px auto;
+}
+div.addTeacher_wrapper .container form button {
+  width: 100%;
+}
+div.add_school_wrapper .container .dashboard_btn {
+  padding: 10px 0;
+  margin: 20px 0;
+}
+div.add_school_wrapper .container .dashboard_btn a {
+  border: 1px solid #039be5;
+  border-radius: 2px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+div.add_school_wrapper .container .dashboard_btn h4 {
+  padding: 30px 0;
+  margin: 0;
+  text-transform: capitalize;
+}
+div.add_school_wrapper .container form {
+  width: 50%;
+  margin: 0 auto 40px auto;
+}
+div.add_school_wrapper .container form button {
+  width: 100%;
+}
+div.individual_school_wrapper .container .actions {
+  margin: 20px 0;
+  overflow: hidden;
+}
+div.individual_school_wrapper .container .actions .dashboard_btn a {
+  border: 1px solid #039be5;
+  border-radius: 2px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  float: left;
+}
+div.individual_school_wrapper .container .actions .add_teacher_btn a {
+  border: 1px solid #039be5;
+  border-radius: 2px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  float: right;
+}
+div.individual_school_wrapper .container .ind_school_name {
+  clear: both;
+  margin: 20px 0;
+  overflow: hidden;
+}
+div.individual_school_wrapper .container .teacher_list {
+  margin: 0 40px;
+}
+div.individual_school_wrapper .container .teacher_list ul {
+  overflow: hidden;
+}
+div.individual_school_wrapper .container .teacher_list ul li ul.actions_list li {
+  display: inline-block;
+}
+div.individual_school_wrapper .container .teacher_list ul li ul.actions_list li:not(:last-child):after {
+  content: " |";
+  margin: 0 5px;
+}
+div.individual_school_wrapper .container .file_upload_area {
+  margin: 40px 0;
+}
+div.individual_school_wrapper .container .file_upload_area .dnd_upload {
+  border: 2px dashed #cccccc;
+  text-align: center;
+  padding: 60px;
+  background: #eeeeee;
+}
+div.individual_school_wrapper .container .file_upload_area .files_list {
+  margin: 40px 0;
+}
+div.teacher_login_wrapper {
+  margin: 50px 0;
+}
+div.teacher_login_wrapper form {
+  width: 50%;
+  margin: 0 auto;
+}
+div.teacher_login_wrapper form .checkbox input {
+  visibility: visible;
+  display: block;
+  margin: 0;
+  left: 0;
+}
+div.teacher_login_wrapper form button {
+  width: 100%;
+}
+div.mission_vision_wrapper .deped_mission .col-md-4 {
+  height: 400px;
+  display: table;
+}
+div.mission_vision_wrapper .deped_mission .col-md-4 .img_holder {
+  display: table-cell;
+  vertical-align: middle;
+}
+div.mission_vision_wrapper .deped_mission .col-md-4 .img_holder img {
+  margin: 0 auto;
+  width: 250px;
+  height: auto;
+}
+div.mission_vision_wrapper .deped_mission .col-md-8 {
+  height: 400px;
+  display: table;
+}
+div.mission_vision_wrapper .deped_mission .col-md-8 .text_content {
+  display: table-cell;
+  vertical-align: middle;
+}
+div.mission_vision_wrapper .deped_vision .col-md-8 {
+  height: 400px;
+  display: table;
+}
+div.mission_vision_wrapper .deped_vision .col-md-8 .text_content {
+  display: table-cell;
+  vertical-align: middle;
+}
+div.mission_vision_wrapper .deped_vision .col-md-4 {
+  height: 400px;
+  display: table;
+}
+div.mission_vision_wrapper .deped_vision .col-md-4 .img_holder {
+  display: table-cell;
+  vertical-align: middle;
+}
+div.mission_vision_wrapper .deped_vision .col-md-4 .img_holder img {
+  margin: 0 auto;
+  width: 250px;
+  height: auto;
+}
+div.mission_vision_wrapper .core_values {
+  margin: 50px auto;
+}
+div.mission_vision_wrapper .core_values .col-md-3 div {
+  display: table;
+  height: 135px;
+  width: 100%;
+}
+div.mission_vision_wrapper .core_values .col-md-3 div .icon_holder {
+  display: table-cell;
+  vertical-align: bottom;
+}
+div.mission_vision_wrapper .core_values .col-md-3 div .icon_holder img {
+  margin: 0 auto;
+  width: 80px;
+  height: auto;
+}
+div.mission_vision_wrapper .core_values .col-md-3 h4 {
+  text-align: center;
+}
+footer div.above_footer {
+  background: #2d3032;
+}
+footer div.above_footer .container {
+  margin: 30px auto;
+}
+footer div.above_footer .container .col-md-6 h5 {
+  color: #f0b327;
+}
+footer div.above_footer .container .col-md-6 ul li {
+  color: #cccccc;
+}
+footer div.below_footer {
+  background-color: #1f1f1f;
+}
+footer div.below_footer .container .copyright {
+  padding: 9px 0;
+}
+footer div.below_footer .container .copyright div {
+  color: #777777;
+}
+footer div.below_footer .container .social_media_icons {
+  padding: 4px 0;
+}
+footer div.below_footer .container .social_media_icons ul {
+  margin: 0;
+  float: right;
+}
+footer div.below_footer .container .social_media_icons ul li {
+  display: inline-block;
+  margin: 0 5px;
+}
+footer div.below_footer .container .social_media_icons ul li a {
+  color: #777777;
+  font-size: 26px;
+}

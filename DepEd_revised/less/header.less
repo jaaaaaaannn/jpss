@@ -1,0 +1,45 @@
+nav.default-color {
+	background-color: @header_color;
+	margin: 0;
+	.container {
+		#nav_collapse {
+			ul {
+				// float: right;
+			}
+		}
+	}
+}
+div.header_logo {
+	background: @heading_deped_color;
+	.box-shadow(0 3px 10px 0px @grey4);
+    z-index: 100;
+    position: relative;
+	.container {
+		height: 150px;
+    	display: table;
+		.heading_deped_logo {
+			display: table-cell;
+    		vertical-align: middle;
+			.col-md-3 {
+				text-align: center;
+				img {
+					width: 120px;
+					height: auto;
+				}
+			}
+			.col-md-6 {
+				text-align: center;
+				h1 {
+				    font-size: 32px;
+					color: #fff;
+					margin: 0;
+				}
+				h2 {
+				    font-size: 24px;
+				    color: #fff;
+				    margin: 0;
+				}
+			}
+		}
+	}
+}
